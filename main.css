@@ -1,0 +1,128 @@
+/* Custom styles for this template */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.signInCheckBoxLink {
+  color: #999;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.signInCheckBoxLink:hover {
+  color: #006097;
+  text-decoration: none;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* .sidebar {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: inline-block;
+  width: 332px;
+}
+
+.sidebar {
+  background-color: #0072c6;
+}
+
+.sidebar .owaLogoContainer {
+  margin: 40vh auto auto 109px;
+  text-align: left
+} */
+
+.login-box {
+  padding-left: 0;
+  width: 100%;
+}
+
+/* @media (min-width: 576px) {
+  .login-box {
+    padding-left: 332px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-box {
+    padding-left: 332px;
+  }
+}
+
+@media (min-width: 992px) {
+  .login-box {
+    padding-left: 332px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .login-box {
+    padding-left: 332px;
+  }
+} */
+
+.btn.btn-primary {
+  background-color: #0f162d;
+  transition: 0.4s ease;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background-color: #26409e;
+}
